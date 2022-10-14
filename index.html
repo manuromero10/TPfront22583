@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes/codoacodo.png" alt="Avatar Logo" style="width: 100px;" class="rounded-pill">
+                    Conf Bs As 
+                  </a>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">La conferencia</a>
+                </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Los oradores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">El lugar y la fecha</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Conviértete en orador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="#">Comprar tickets</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="background">
+            <div class="texto">
+                <h1> Conf Bs As</h1>
+                <p> Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros eestudintes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                <button class="btn-orador"> Quiero ser orador </button>
+                <button class="btn-comprar"> Comprar Tickets</button>
+            </div>
+        </div>
+        <div class="oradores container-fluid">
+            <h4 class="oradoresh4">CONOCE A LOS <span>ORADORES</span></h4>
+            <div class="contenedor-cards row d-flex justify-content-center ">
+                <div class="card col-sm-3" style="width:300px">
+                    <img class="card-img-top" src="imagenes/steve.jpg" alt="Card image">
+                    <div class="card-body">
+                      <button class="btn btn-warning"> JavaScript </button>
+                      <button class="btn btn-info"> React </button>
+                      <h4 class="card-title">Steve Jobs</h4>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit qui, necessitatibus non et provident ab, esse ad asperiores vel corporis aspernatur nostrum. Magni minima mollitia amet in, veritatis aliquam cupiditate!</p>
+                    </div>
+                </div>
+                <div class="card col-sm-3" style="width:300px">
+                    <img class="card-img-top" src="imagenes/bill.jpg" alt="Card image">
+                    <div class="card-body">
+                      <button class="btn btn-warning"> JavaScript </button>
+                      <button class="btn btn-info"> React </button>
+                      <h4 class="card-title">Bill Gates</h4>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eveniet molestias, deserunt qui tempore nisi laboriosam eaque rerum quos inventore incidunt provident. Nihil ipsam sed, cupiditate laudantium consectetur ad vero?</p>
+                    </div>
+                </div>
+                <div class="card col-sm-3" style="width:300px">
+                    <img class="card-img-top" src="imagenes/ada.jpeg" alt="Card image">
+                    <div class="card-body">
+                        <button class="btn btn-secondary"> Negocios </button>
+                        <button class="btn btn-danger"> Startups </button>
+                      <h4 class="card-title">Ada Lovelace</h4>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati officiis error quas omnis quaerat, modi voluptatum quasi provident dolorum! Omnis laudantium minima nemo ipsam, fugiat eveniet cum quas. Asperiores, aspernatur?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row container-fluid">
+          <div class="col-sm-6">
+            <img src="imagenes/honolulu.jpg" alt="" style="max-width:100%;">
+          </div>
+          <div class="col-sm-6 bs-octubre">
+            <div class="texto-conoce">
+              <h3> Bs As - Octubre</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut qui voluptas nostrum necessitatibus consectetur! Magni placeat distinctio, odio optio quae error natus voluptas. Iusto ex sit distinctio laudantium aut quis!
+            </p>
+            <button class="btn-orador"> Conocé más</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="container-fluid oradorform">
+          <h4 class="oradoresh4"> CONVIÉRTETE EN UN <span>ORADOR</span></h4>
+          <p> Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+          <form action="">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" name="apellido">
+              </div>
+            </div>
+            <textarea class="form-control" name="" id=""  rows="5" placeholder="Sobre qué quieres hablar?"></textarea>
+            <small> Recuerda incluir un titulo para tu charla</small>
+            
+            <button class="btn-submit" type="submit"> Enviar </button>
+          </form>
+        </div>
+    </main>
+    <footer>
+      <ul class="footer">
+        <li> <a href="#"> Preguntas frecuentes </a> </li>
+        <li> <a href="#"> Contactanos </a> </li>
+        <li> <a href="#"> Prensa </a> </li>
+        <li> <a href="#"> Conferencias </a> </li>
+        <li> <a href="#"> Términos y condiciones </a> </li>
+        <li> <a href="#"> Privacidad </a> </li>
+        <li> <a href="#"> Estudiantes </a> </li>
+      </ul>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

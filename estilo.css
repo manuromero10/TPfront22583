@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.background {
+    background:rgba(0, 0, 0, 0.472) url(imagenes/ba1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    min-height: 500px;
+    max-width: 100vw;
+    width: 100% ;
+    position: relative;
+
+}
+.texto {
+    color: white;
+    max-width: 500px;
+    text-align: end;
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+}
+.btn-orador {
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+
+}
+.btn-comprar {
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(77, 181, 21);
+    color: white;
+    padding: 3px;
+}
+/*
+.contenedor-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 10px 10px ;
+}
+*/
+.bs-octubre {
+    background-color: rgb(16, 15, 15);
+    color: white;
+}
+.texto-conoce {
+    margin: 15px;
+}
+.ejemplo {
+    background-color: red;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+.oradoresh4 {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 14px;
+}
+.oradoresh4 span {
+    font-size: 25px;
+}
+
+.btn-submit {
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(163, 196, 63);
+    color: white;
+    border: none;
+    padding: 3px;
+}
+
+footer {
+    background-color: rgb(4, 4, 103);
+}
+.footer {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
